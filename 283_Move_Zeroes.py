@@ -1,4 +1,6 @@
 '''
+Problem Statement:
+
 Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
 Example:
@@ -9,6 +11,18 @@ Note:
 
 1: You must do this in-place without making a copy of the array.
 2: Minimize the total number of operations.
+
+
+
+
+
+
+
+Approach:
+
+* We should have count of number of zeros in the provided list
+* We will keep a counter of index that is non zero
+* We will iterate through the list and once the value is non-zero, then we will be swap the non-zero value with zero value and increment the counter next zero.
 
 '''
 
