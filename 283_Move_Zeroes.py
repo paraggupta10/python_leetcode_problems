@@ -23,6 +23,7 @@ Approach:
 * We should have count of number of zeros in the provided list
 * We will keep a counter of index that is zero
 * We will iterate through the list and once the value is non-zero, then we will be swap the non-zero value with zero value and increment the counter next zero.
+* Finally we will add zero's at the end of the list based on number of zero's we have counted in the first step
 
 '''
 
